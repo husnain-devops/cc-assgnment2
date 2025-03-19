@@ -1,0 +1,74 @@
+{
+  "notifications": [
+    {
+      "id": 2,
+      "userId": 3,
+      "type": "post_reply",
+      "sourceId": 4,
+      "threadId": 2,
+      "message": "Jake and Finn are coming to your party",
+      "read": true,
+      "createdAt": "2025-03-18T14:45:00Z"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "type": "friend_request",
+      "sourceId": 1,
+      "threadId": null,
+      "message": "Marceline sent you a friend request",
+      "read": false,
+      "createdAt": "2025-03-18T23:53:31.894Z"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "type": "mention",
+      "sourceId": 1,
+      "threadId": 3,
+      "message": "Marceline mentioned you in a thread",
+      "read": false,
+      "createdAt": "2025-03-19T02:02:35.445Z"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "type": "mention",
+      "sourceId": 1,
+      "threadId": 3,
+      "message": "Marceline mentioned you in a thread",
+      "read": false,
+      "createdAt": "2025-03-19T02:07:16.595Z"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "type": "mention",
+      "sourceId": 1,
+      "threadId": 3,
+      "message": "Marceline mentioned you in a thread",
+      "read": false,
+      "createdAt": "2025-03-19T02:09:41.610Z"
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "type": "mention",
+      "sourceId": 1,
+      "threadId": 3,
+      "message": "Marceline mentioned you in a thread",
+      "read": false,
+      "createdAt": "2025-03-19T02:11:25.470Z"
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "type": "mention",
+      "sourceId": 1,
+      "threadId": 3,
+      "message": "Marceline mentioned you in a thread",
+      "read": false,
+      "createdAt": "2025-03-19T02:12:37.509Z"
+    }
+  ]
+}

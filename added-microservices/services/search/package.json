@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "koa": "^1.2.5",
+    "koa-router": "^5.4.0",
+    "koa-bodyparser": "^2.5.0",
+    "lunr": "^2.3.9",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
+

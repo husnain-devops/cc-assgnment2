@@ -1,0 +1,99 @@
+version: '3'
+
+services:
+  users:
+    build: ./users
+    ports:
+      - "3001:3000"
+    networks:
+      - adventure-net
+    environment:
+      - SERVICE_NAME=users-service
+    volumes:
+      - ./users:/srv
+      - /srv/node_modules
+
+  threads:
+    build: ./threads
+    ports:
+      - "3002:3000"
+    networks:
+      - adventure-net
+    environment:
+      - SERVICE_NAME=threads-service
+    volumes:
+      - ./threads:/srv
+      - /srv/node_modules
+
+  posts:
+    build: ./posts
+    ports:
+      - "3003:3000"
+    networks:
+      - adventure-net
+    environment:
+      - SERVICE_NAME=posts-service
+    volumes:
+      - ./posts:/srv
+      - /srv/node_modules
+
+  auth:
+    build: ./auth
+    ports:
+      - "3004:3000"
+    networks:
+      - adventure-net
+    environment:
+      - SERVICE_NAME=auth-service
+      - JWT_SECRET=adventure-time-secret-key
+    volumes:
+      - ./auth:/srv
+      - /srv/node_modules
+
+  notifications:
+    build: ./notifications
+    ports:
+      - "3005:3000"
+    networks:
+      - adventure-net
+    environment:
+      - SERVICE_NAME=notifications-service
+    volumes:
+      - ./notifications:/srv
+      - /srv/node_modules
+
+  search:
+    build: ./search
+    ports:
+      - "3006:3000"
+    networks:
+      - adventure-net
+    environment:
+      - SERVICE_NAME=search-service
+    volumes:
+      - ./search:/srv
+      - /srv/node_modules
+    depends_on:
+      - users
+      - threads
+      - posts
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - adventure-net
+    depends_on:
+      - users
+      - threads
+      - posts
+      - auth
+      - notifications
+      - search
+
+networks:
+  adventure-net:
+    driver: bridge
