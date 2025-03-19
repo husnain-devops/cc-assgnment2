@@ -1,0 +1,34 @@
+{
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 4,
+      "type": "post_reply",
+      "sourceId": 2,
+      "threadId": 1,
+      "message": "Finn replied to your thread about the Lich",
+      "read": true,
+      "createdAt": "2025-03-18T15:30:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "type": "post_reply",
+      "sourceId": 4,
+      "threadId": 2,
+      "message": "Jake and Finn are coming to your party",
+      "read": true,
+      "createdAt": "2025-03-18T14:45:00Z"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "type": "friend_request",
+      "sourceId": 1,
+      "threadId": null,
+      "message": "Marceline sent you a friend request",
+      "read": false,
+      "createdAt": "2025-03-18T23:53:31.894Z"
+    }
+  ]
+}

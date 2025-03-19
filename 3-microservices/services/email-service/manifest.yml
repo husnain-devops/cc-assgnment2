@@ -1,6 +1,0 @@
-variables:
-  SMTP_SERVER: smtp.gmail.com
-  SMTP_USERNAME: mianhusnain00001@gmail.com
-  SMTP_PASSWORD: ycxmpssjfglfegbo
-  SERVER_HOSTNAME: cc.assignment-2.com
-

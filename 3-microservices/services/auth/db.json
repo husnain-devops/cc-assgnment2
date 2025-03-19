@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "marceline",
+      "password": "$2a$10$xVrYGgGP4AOC/4Nx.B5DJeC9/4VrODCUy7WTZbBQRpCMG1SkKRUxe",
+      "email": "vampire.queen@nightosphere.ooo"
+    },
+    {
+      "id": 2,
+      "username": "finn",
+      "password": "$2a$10$Y9wY1hVe5Stw4XnxhXs7eeP.jA4nJ5HmYXiSHsNiFnLxT1E.2Xnhy",
+      "email": "hero@ooo-adventures.com"
+    },
+    {
+      "id": 3,
+      "username": "pb",
+      "password": "$2a$10$7K.8Jyu.hWaC8OcnwV3XEeJqU0M4ovcXb8tA.wCcGTQJxHJXwWJHq",
+      "email": "princess@candy-kingdom.gov"
+    },
+    {
+      "id": 4,
+      "username": "jake",
+      "password": "$2a$10$8Xpk5SYmOdT0YUHC4Ff/OO0QtgXJ.7pSQGDIrKGnvKQDj3AYZDkga",
+      "email": "jake@treehouse.ooo"
+    },
+    {
+      "id": 5,
+      "username": "jake2",
+      "password": "$2a$10$MiX4tHM/rP9eHOsuyDAjDOTv8MWYNDEUIcocatGbczwt2D/D82oKW",
+      "email": "jake2@treehouse.ooo"
+    }
+  ],
+  "sessions": [
+    {
+      "userId": 5,
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwidXNlcm5hbWUiOiJqYWtlMiIsImlhdCI6MTc0MjM0MTc2MSwiZXhwIjoxNzQyNDI4MTYxfQ.ZimRlrKcj_oKKaCUhndM7-N3wSO8r9M11rcC7e386TM",
+      "createdAt": "2025-03-18T23:49:21.612Z"
+    }
+  ]
+}

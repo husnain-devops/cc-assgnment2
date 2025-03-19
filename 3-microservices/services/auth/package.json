@@ -1,0 +1,14 @@
+
+{
+  "dependencies": {
+    "koa": "^1.2.5",
+    "koa-router": "^5.4.0",
+    "koa-bodyparser": "^2.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
+
